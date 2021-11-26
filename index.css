@@ -1,0 +1,699 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.firstmenu {
+    background-color: #f6f6f6;
+    height: 100%;
+    width: 100vw;
+    margin-bottom: 2%;
+}
+
+.headerp1 {
+    margin-left: 30%;
+    justify-items: center;
+}
+
+.headerp3 {
+    margin-left: 33%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.sideline {
+    background-color: black;
+    width: 1px;
+    height: 2px;
+}
+
+#secondmenu {
+    height: 100px;
+    overflow: hidden;
+}
+
+.addressimg svg {
+    height: 50px;
+    width: 50px;
+}
+
+#navbar {
+    background-color: #0b2b42;
+    position: relative;
+    z-index: 2;
+}
+
+#navbar ul li a {
+    color: #fff;
+}
+
+.d-flex .btn {
+    background-color: #9dcb3d;
+    color: #fff;
+}
+
+#banner {
+    width: 100%;
+    height: 600px;
+    margin-top: -1.5%;
+    background-image: url(Layer\ 692.png);
+    background-repeat: no-repeat;
+    background-position: 100px -150px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, #165684, #165684);
+    opacity: .7;
+}
+
+#banner h2 {
+    position: absolute;
+    z-index: 5;
+    color: #ffffff;
+    margin-top: 10%;
+    margin-left: 40%;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    margin-top: -10%;
+    z-index: 3;
+    border: none;
+    background-color: none;
+    background-size: cover;
+}
+
+#bannercard {
+    background-image: url(Layer\ 7111.png);
+    background-size: cover;
+}
+
+#bannercard1 {
+    background-image: url(Layer\ 7112.png);
+    background-position: -10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bannercard2 {
+    background-image: url(Layer\ 711.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bannercard::after {
+    content: "";
+    position: absolute;
+    top: 37.5%;
+    z-index: 1;
+    left: 0;
+    width: 320px;
+    height: 200px;
+    background: linear-gradient(to bottom LEFT, transparent 0%, transparent 50%, #f15e25 50%, #f15e25 100%);
+}
+
+#bannercard::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 27%;
+    left: 0;
+    width: 315px;
+    height: 210px;
+    background: linear-gradient(to bottom LEFT, transparent 50%, transparent 50%, #f15e25 10%, transparent 70%);
+}
+
+#bannercard1::after {
+    content: "";
+    position: absolute;
+    top: 37.5%;
+    left: 0;
+    width: 320px;
+    height: 200px;
+    background: linear-gradient(to bottom LEFT, transparent 0%, transparent 50%, #9dcb3d 50%, #9dcb3d 100%);
+}
+
+#bannercard1::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 27%;
+    left: 0;
+    width: 315px;
+    height: 210px;
+    background: linear-gradient(to bottom LEFT, transparent 50%, transparent 50%, #9dcb3d 50%, transparent 60%);
+}
+
+#bannercard2::after {
+    content: "";
+    position: absolute;
+    top: 37.5%;
+    left: 0;
+    width: 320px;
+    height: 200px;
+    background: linear-gradient(to bottom LEFT, transparent 0%, transparent 50%, #0b2b42 50%, #0b2b42 100%);
+}
+
+#bannercard2::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 27%;
+    left: 0;
+    width: 315px;
+    height: 210px;
+    background: linear-gradient(to bottom LEFT, transparent 50%, transparent 50%, #0b2b42 50%, transparent 70%);
+}
+
+.bannercardcontent {
+    margin-top: 70%;
+    position: absolute;
+    z-index: 4;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+.bannercardcontent svg {
+    height: 20px;
+    width: 20px;
+}
+
+#bancards {
+    margin-bottom: 50px;
+}
+
+.ourspe {
+    margin-top: 50px;
+}
+
+#specifirst {
+    word-wrap: break-word;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.specicontent {
+    justify-content: space-around;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#talkbubble {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    background: #9dcb3d;
+    position: relative;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 10px;
+    border-radius: 50px;
+}
+
+#talkbubble:before {
+    content: "";
+    position: absolute;
+    left: 94%;
+    top: 14px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 15px solid #9dcb3d;
+    border-bottom: 12px solid transparent;
+}
+
+#talkbubble img {
+    margin: 17%;
+}
+
+#specialimg {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-position: 50px -11px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Layer\ 1.png);
+    overflow: hidden;
+}
+
+#specialimg::after {
+    content: "";
+    position: absolute;
+    top: 58%;
+    z-index: 1;
+    left: 50px;
+    width: 320px;
+    height: 200px;
+    background: linear-gradient(to bottom LEFT, transparent 0%, transparent 50%, #f15e25 50%, #f15e25 100%);
+}
+
+#specialimg::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50px;
+    width: 415px;
+    height: 250px;
+    background: linear-gradient(to bottom LEFT, transparent 50%, transparent 50%, #f15e25 10%, transparent 70%);
+    overflow: hidden;
+}
+
+#specialimg h3 {
+    margin-top: 80%;
+    position: absolute;
+    z-index: 3;
+    margin-left: 15%;
+    color: white;
+}
+
+.services {
+    background-color: #f9f9f9;
+    margin-left: 20%;
+}
+
+.servicecont {
+    margin-left: 50%;
+}
+
+.card {
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+}
+
+.card-body svg {
+    height: 50px;
+    width: 50px;
+}
+
+.card-body {}
+
+.servicecards {
+    height: 300px;
+    width: 300px;
+}
+
+.backcircle {
+    width: 90px;
+    height: 90px;
+    background-color: #f5b095;
+    margin-left: 33%;
+    border-radius: 50px;
+    margin-top: 20%;
+}
+
+.card :hover .backcircle {
+    background-color: white;
+    border: 1px solid rgb(173, 171, 171);
+}
+
+
+/*game*/
+
+.card-flip>div {
+    backface-visibility: hidden;
+    transition: transform 1500ms;
+    transition-timing-function: linear;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    cursor: pointer;
+}
+
+.card-front {
+    transform: rotateY(0deg);
+}
+
+.back-game {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(#00b1e8, #00ebd4);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.card-flip:hover .card-front {
+    transform: rotateY(-180deg);
+}
+
+.card-flip:hover .back-game {
+    transform: rotateY(0deg);
+}
+
+.card-front :hover {
+    background-color: #f15e25;
+    overflow: hidden;
+}
+
+.card-front :hover .card-title {
+    color: white;
+    overflow: hidden;
+}
+
+.card-front :hover .arrow svg {
+    overflow: hidden;
+}
+
+
+/*3d*/
+
+.back-3d {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(#ed3b4b, #f67d31);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.card-flip:hover .back-3d {
+    transform: rotateY(0deg);
+}
+
+
+/*brain*/
+
+.back-brain {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(#2a47ca, #c131f6);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.card-flip:hover .back-brain {
+    transform: rotateY(0deg);
+}
+
+
+/* blockchain   */
+
+.back-blockchain {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(#f83600, #fbca22);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.card-flip:hover .back-blockchain {
+    transform: rotateY(0deg);
+}
+
+
+/*   ai */
+
+.back-ai {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(#1fa2cb, #2ad45c);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.card-flip:hover .back-ai {
+    transform: rotateY(0deg);
+}
+
+
+/*  learning*/
+
+.back-MachineLearning {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(#4760ff, #0ecbff);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.card-flip:hover .back-MachineLearning {
+    transform: rotateY(0deg);
+}
+
+.all-game {
+    width: 50px;
+    height: 50px;
+    padding: 6px;
+    margin: 20px 10px;
+    fill: #f15e25;
+}
+
+.all-3d {
+    width: 83px;
+    height: 59px;
+    padding: 6px;
+    margin: 20px 10px;
+    fill: #f15e25;
+}
+
+.all-brain {
+    width: 83px;
+    height: 59px;
+    padding: 6px;
+    margin: 20px 10px;
+    fill: #f15e25;
+}
+
+.all-ai {
+    width: 83px;
+    height: 59px;
+    padding: 6px;
+    margin: 20px 10px;
+    fill: #f15e25;
+}
+
+.all-block {
+    width: 83px;
+    height: 59px;
+    padding: 6px;
+    margin: 20px 10px;
+    fill: #f15e25;
+}
+
+.all-machine {
+    width: 50px;
+    height: 50px;
+    padding: 6px;
+    margin: 20px 10px;
+    fill: #f15e25;
+}
+
+.card-title {
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.arrow {
+    margin-top: 30%;
+    margin-left: 33%;
+    position: absolute;
+}
+
+.arrow svg {
+    height: 50px;
+    width: 50px;
+}
+
+.featurette-heading {}
+
+.aboutuscontainer {
+    height: 90%;
+}
+
+.aboutus {
+    background-color: #0b2b42;
+    height: 400px;
+}
+
+.heading {
+    margin-left: 20%;
+}
+
+.middleline {
+    height: 1px;
+    width: 1px;
+    margin-top: 10px;
+    background-color: rgb(240, 240, 241);
+    transform: rotate(90deg);
+}
+
+.talktoexpert {
+    height: 300px;
+    background-color: cadetblue;
+    margin-top: -10%;
+    position: relative;
+    color: white;
+    margin-top: -10%;
+    padding-bottom: 20px;
+}
+
+.talktoexpert img {
+    height: 300px;
+    width: 100%;
+    margin-left: 0;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+}
+
+.aboutpera {
+    text-align: left;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 20px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.sliderimage img {
+    width: 300px;
+    height: 350px;
+}
+
+.slider {
+    height: 50%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.slider .owl-item.active.center .slider-card {
+    opacity: 1;
+    background-color: #ccc;
+}
+
+.slider-card {
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px rgb(129, 115, 115);
+    position: relative;
+    transition: all 0.3s;
+}
+
+.slidercontent {
+    background-color: #fff;
+    position: absolute;
+    margin-top: -26%;
+    margin-left: 10px;
+    border-top: 5px solid rgb(255, 94, 0);
+}
+
+.fit-image {
+    width: 50%;
+    object-fit: cover
+}
+
+.profile-pic {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 60px;
+    margin-top: 15px
+}
+
+.profile-name {
+    font-size: 22px;
+    color: #616161;
+    margin-left: 80%;
+    margin-top: -20%;
+}
+
+.position {
+    margin-top: -10%;
+    margin-left: 80%;
+}
+
+.carousel_se_01_carousel .owl-item img {
+    display: block;
+    width: 50%;
+}
+
+.testimonials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.msg-icn {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    color: rgb(22, 21, 21);
+    box-sizing: border-box;
+    max-width: 300px;
+    min-width: 80px;
+    min-height: 38px;
+}
+
+.msg-icn:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f0e6d0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    clip-path: polygon(0% 105%, 0% 0%, 105% 0%, 105% 105%, 43px 105%, 43px 80%, 21px 80%, 21px 105%);
+}
+
+.msg-icn:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    background: #f0e6d0;
+    top: calc(100% - 1px);
+    left: 20px;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 0% 100%, 100% 0%, calc(100% - 2px) 0, 1px calc(100% - 2px), 1px 0);
+}
+
+.carousel_se_01 .owl-carousel .owl-item img {
+    width: 50px;
+}

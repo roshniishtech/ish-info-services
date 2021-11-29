@@ -23,7 +23,16 @@
     <title>Hello, world!</title>
 
     <style>
-        h1,
+        .frontimg {
+            transform: scaleX(-1);
+            background-image: url(Layer\ 719.png);
+        }
+        
+        .backimage img {
+            height: 300px;
+            width: 300px;
+        }
+        /*  h1,
         h2,
         h3 {
             margin: 0;
@@ -32,20 +41,24 @@
         }
         
         h2 {
-            color: #fff;
+            color: rgb(20, 10, 10);
             padding-top: 15px;
             font-weight: 200;
         }
         
         #owl-demo .item {
-            background: red;
             padding: 30px 0px;
             margin: 0;
-            color: #FFF;
             border-radius: 0;
             text-align: center;
-            height: 300px;
             margin-bottom: 20%;
+        }
+        
+        .slidercontent {
+            margin-top: -20%;
+            background-color: #fff;
+            margin-left: 10%;
+            position: absolute;
         }
         
         #owl-demo2 .item {
@@ -60,17 +73,11 @@
         #owl-demo.slider-card {
             margin: 50px 15px 90px 15px;
             border-radius: 5px;
+            height: 300px;
+            width: 300px;
             box-shadow: 0 15px 45px -20px rgb(129, 115, 115);
             position: relative;
             transition: all 0.3s;
-        }
-        
-        #owl-demo.slidercontent {
-            background-color: #fff;
-            position: absolute;
-            margin-top: -26%;
-            margin-left: 10px;
-            border-top: 5px solid rgb(255, 94, 0);
         }
         
         .msg-icn {
@@ -127,7 +134,7 @@
         
         #owl-demo2 .position {
             margin-top: -5%;
-        }
+        }*/
     </style>
 
 
@@ -135,12 +142,20 @@
 
 <body>
 
+    <div class="container">
+        <div class="row backimage">
+            <img src="Layer 718 copy.png">
+        </div>
+        <div class="row frontimg">
 
 
+        </div>
+    </div>
 
+    <!--
 
-    <div id="owl-demo" class="owl-carousel owl-theme owl-dots">
-        <div class="item">
+    <div id="owl-demo" class="owl-carousel owl-theme owl-dots container">
+        <div class="item ">
             <div class="slider-card">
                 <div class=" d-flex  justify-content-center  align-items-center  mb-4">
                     <div>
@@ -150,7 +165,7 @@
                     </div>
 
                 </div>
-                <div class="slidercontent ">
+                <div class="slidercontent">
 
                     <h6 style="color: orange;">Lorem, ipsum dolor.</h6>
                     <h3>VB APPLICATION</h3>
@@ -167,11 +182,11 @@
                     </div>
 
                 </div>
-                <span class="slidercontent ">
-                  
+                <div class="slidercontent">
+
                     <h6 style="color: orange;">Lorem, ipsum dolor.</h6>
                     <h3>VB APPLICATION</h3>
-                </span>
+                </div>
             </div>
         </div>
         <div class="item">
@@ -184,11 +199,11 @@
                     </div>
 
                 </div>
-                <span class="slidercontent ">
-                  
+                <div class="slidercontent">
+
                     <h6 style="color: orange;">Lorem, ipsum dolor.</h6>
                     <h3>VB APPLICATION</h3>
-                </span>
+                </div>
             </div>
         </div>
         <div class="item">
@@ -201,11 +216,11 @@
                     </div>
 
                 </div>
-                <span class="slidercontent ">
-                  
+                <div class="slidercontent">
+
                     <h6 style="color: orange;">Lorem, ipsum dolor.</h6>
                     <h3>VB APPLICATION</h3>
-                </span>
+                </div>
             </div>
         </div>
         <div class="item">
@@ -218,11 +233,11 @@
                     </div>
 
                 </div>
-                <span class="slidercontent ">
-                  
+                <div class="slidercontent">
+
                     <h6 style="color: orange;">Lorem, ipsum dolor.</h6>
                     <h3>VB APPLICATION</h3>
-                </span>
+                </div>
             </div>
         </div>
         <div class="item">
@@ -235,11 +250,11 @@
                     </div>
 
                 </div>
-                <span class="slidercontent ">
-                  
+                <div class="slidercontent">
+
                     <h6 style="color: orange;">Lorem, ipsum dolor.</h6>
                     <h3>VB APPLICATION</h3>
-                </span>
+                </div>
             </div>
         </div>
 
@@ -248,7 +263,7 @@
 
     </div>
 
-    <div id="owl-demo2" class="owl-carousel owl-theme owl-dots">
+    <div id="owl-demo2" class="owl-carousel owl-theme owl-dots container">
         <div class="item">
             <span class="msg-icn">So nice     I upgraded my Dribble account to the Pro version. Absolutely loving the super clean look of the Playbook feature</span>
 
